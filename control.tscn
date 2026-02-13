@@ -1,0 +1,89 @@
+[gd_scene format=3 uid="uid://cf4wrt118ilvs"]
+
+[ext_resource type="Script" uid="uid://b3h1qmpgtxnv8" path="res://control.gd" id="1_0fbet"]
+[ext_resource type="Texture2D" uid="uid://40onetukuvc3" path="res://nego.jpg" id="2_62e2m"]
+[ext_resource type="Texture2D" uid="uid://olga5i7882vq" path="res://alc.webp" id="3_qtu10"]
+[ext_resource type="Texture2D" uid="uid://bj0uirq0cnn0m" path="res://ciallo.webp" id="4_ee4bf"]
+
+[node name="01" type="Control" unique_id=1991419469]
+layout_mode = 3
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -540.0
+offset_top = -960.0
+offset_right = -540.0
+offset_bottom = -960.0
+script = ExtResource("1_0fbet")
+
+[node name="sence" type="TextureRect" parent="." unique_id=1245136916]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 1920.0
+texture = ExtResource("2_62e2m")
+
+[node name="button" type="TextureRect" parent="." unique_id=650965748]
+layout_mode = 0
+offset_left = 811.0
+offset_top = 872.0
+offset_right = 994.0
+offset_bottom = 1035.0
+texture = ExtResource("3_qtu10")
+
+[node name="InputTextEdit" type="TextEdit" parent="." unique_id=410013693]
+layout_mode = 1
+anchors_preset = -1
+offset_top = -3.0
+offset_right = 1080.0
+offset_bottom = 869.0
+theme_override_font_sizes/font_size = 80
+
+[node name="OutputTextEdit" type="TextEdit" parent="." unique_id=1086096878]
+layout_mode = 1
+anchors_preset = -1
+offset_top = 1033.0
+offset_right = 1080.0
+offset_bottom = 1920.0
+theme_override_font_sizes/font_size = 80
+editable = false
+context_menu_enabled = false
+selecting_enabled = false
+
+[node name="OutputButton" type="Button" parent="." unique_id=1988529542]
+layout_mode = 0
+offset_left = 811.0
+offset_top = 872.0
+offset_right = 994.0
+offset_bottom = 1035.0
+theme_override_font_sizes/font_size = 50
+text = "输出喵"
+
+[node name="copy" type="Button" parent="." unique_id=1670854405]
+modulate = Color(0.34509805, 0.6862745, 0.7921569, 0.85490197)
+layout_mode = 0
+offset_left = 738.0
+offset_top = 1760.0
+offset_right = 1079.0
+offset_bottom = 1920.0
+theme_override_font_sizes/font_size = 111
+text = "复制喵"
+
+[node name="Label" type="Label" parent="." unique_id=1866725056]
+modulate = Color(1, 0.16862746, 0.39215687, 1)
+layout_mode = 0
+offset_left = 287.0
+offset_top = 908.0
+offset_right = 797.0
+offset_bottom = 1010.0
+theme_override_font_sizes/font_size = 74
+text = "点此猫娘化喵->"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1462146836]
+layout_mode = 0
+offset_left = 97.0
+offset_top = 871.0
+offset_right = 280.0
+offset_bottom = 1034.0
+texture = ExtResource("4_ee4bf")
+expand_mode = 1
